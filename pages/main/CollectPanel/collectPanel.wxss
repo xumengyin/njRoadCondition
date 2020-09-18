@@ -1,0 +1,55 @@
+/* pages/main/CollectPanel/allDataPanel.wxss */
+
+
+
+.root{
+    width: 420rpx;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.font1{
+    color: #333333;
+    font-size: 26rpx;
+
+}
+.font2{
+    color: #666666;
+    font-size: 24rpx;
+
+}
+.scrollview{
+    width: 372rpx;
+    /*height: 100%;*/
+    overflow: hidden;
+}
+.layoutH{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.layoutV{
+    display: flex;
+    flex-direction:column;
+}
+.carItem{
+    width: 372rpx;
+    /*height: 100rpx;*/
+}
+.line{
+    width: 372rpx;
+    height: 1px;
+    background-color: #cccccc;
+}
+.img1{
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: 20rpx;
+}
+.nodata{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40rpx;
+}

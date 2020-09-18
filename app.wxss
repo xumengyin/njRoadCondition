@@ -1,0 +1,31 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.flexH{
+  display: flex;
+  flex-direction: row;
+}
+.flexV{
+  display: flex;
+  flex-direction: column;
+}
+.font26{
+  font-size: 26rpx;
+}
+.textColor1{
+  color: #666666;
+}
+.textColor2{
+  color: #333333;
+}
+.textColor3{
+  color: #1296db;
+}

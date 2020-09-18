@@ -1,0 +1,11 @@
+<!--pages/main/playerPanel/playerPanel.wxml-->
+<van-transition name="fade" show="{{showPanel}}">
+    <view class="flexV" catchtouchmove="catchTab" hidden="{{!showPanel}}" catchtap="catchTab">
+        <video id="videoPlayer" src="{{src}}" autoplay="{{true}}" show-play-btn="{{false}}"
+               enable-progress-gesture="{{false}}" style="width:700rpx;height:{{height}};"
+               show-progress="{{false}}" show-fullscreen-btn="{{true}}"
+               bindloadedmetadata="bindloadedmetadata" binderror="bindErr"></video>
+
+        <image src="/images/cancel_icon2.png" class="img" bindtap="tabClose"></image>
+    </view>
+</van-transition>

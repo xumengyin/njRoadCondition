@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "player": "./playerPanel/playerPanel",
+    "bottomPanel": "./Panel/panel",
+    "collectPanel": "./CollectPanel/collectPanel",
+    "allDataPanel": "./AllDataPanel/allDataPanel",
+    "van-notice-bar": "@vant/weapp/notice-bar/index"
+
+  }
+}

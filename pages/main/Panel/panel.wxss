@@ -1,0 +1,58 @@
+/* pages/main/Panel/panel.wxss */
+
+
+.bg{
+    display: flex;
+    background-color: white;
+    width: 702rpx;
+    height: 320rpx;
+    margin-left: 24rpx;
+    border-radius: 12rpx;
+    flex-direction: column;
+    padding: 20rpx,20rpx,0,20rpx;
+    box-sizing: border-box;
+
+}
+.flexV{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.font1{
+    font-size: 26rpx;
+    color: #666666;
+}
+.font2{
+    font-size: 28rpx;
+    color: #666666;
+}
+.flexH{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    width: 48rpx;
+    height: 48rpx;
+}
+.swipe{
+    width: 100%;
+    height: 320rpx;
+}
+.bottomH{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    height:90rpx;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #dddddd;
+}
+.line2{
+    width: 1rpx;
+    height: 90rpx;
+    background-color: #dddddd;
+}

@@ -1,0 +1,12 @@
+/* pages/main/playerPanel/playerPanel.wxss */
+
+.flexV{
+    flex-direction: column;
+    display: flex;
+}
+.img{
+    width: 108rpx;
+    height: 108rpx;
+    align-self: center;
+    margin-top: 48rpx;
+}

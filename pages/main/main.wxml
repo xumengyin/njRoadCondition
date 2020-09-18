@@ -1,0 +1,35 @@
+<!--pages/main/main.wxml-->
+<view class="root">
+    <map longitude="{{lng}}" latitude="{{lat}}" class="map" scale="{{14}}" markers="{{cameraMarkers}}"
+         show-location="{{true}}" bindmarkertap="markerTab">
+    </map>
+
+    <van-notice-bar
+            left-icon="volume-o"
+            text="部分摄像设备可能离线或者损坏无法播放,请更换设备播放或者稍后重试"
+            class="notice"
+    />
+    <!--    <view class="panel1">-->
+    <bottomPanel class="panel" listData="{{curData}}" show="{{showPanel}}" markerIndex="{{markerIndex}}"
+                 bindplay="play" catchtouchmove="catch" bindcollect='collectItem'></bottomPanel>
+    <!--    </view>-->
+
+    <view class="menu">
+        <view class="menuItem" catchtap="chooseAll">
+            <image src="/images/all2.png" class="menuIcon"/>
+            <view class="font26 textColor3">全部</view>
+        </view>
+        <view class="menuItem" bindtap="myCollect">
+            <image src="/images/my_colletc.png" class="menuIcon"/>
+            <view class="font26 textColor3">收藏</view>
+        </view>
+
+    </view>
+
+    <allDataPanel show="{{chooseAllShow}}" dataList="{{allDatas}}" bindonItemClick="allPanelClick"></allDataPanel>
+    <collectPanel id="myCollect" show="{{collectShow}}"  bindonItemClick="allPanelClick"></collectPanel>
+
+    <player class="player" show="{{showPlayer}}" srcHls="{{playSrc}}"></player>
+
+
+</view>

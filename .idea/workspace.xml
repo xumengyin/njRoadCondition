@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd32895f-d71b-43de-88c5-c0a917198be2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hZicBz532clqtetClQzYAdFucs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/main" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dinaWxAPP\njRoadCondition\pages\main" />
+      <recent name="E:\dinaWxAPP\njRoadCondition\images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd32895f-d71b-43de-88c5-c0a917198be2" name="Default Changelist" comment="" />
+      <created>1600225091276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600225091276</updated>
+      <workItem from="1600225093321" duration="8786000" />
+      <workItem from="1600239357115" duration="23802000" />
+      <workItem from="1600322964849" duration="41885000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="87" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600411860383">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="447" y="87" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1378.900@0.0.1378.900" timestamp="1600411860383" />
+    <state x="547" y="345" width="283" height="275" key="Github.ShareDialog" timestamp="1600250702971">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="547" y="345" width="283" height="275" key="Github.ShareDialog/0.0.1378.900@0.0.1378.900" timestamp="1600250702971" />
+    <state x="414" y="185" width="609" height="524" key="StructurePopup" timestamp="1600407844148">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="414" y="185" width="609" height="524" key="StructurePopup/0.0.1378.900@0.0.1378.900" timestamp="1600407844148" />
+    <state x="386" y="192" width="605" height="516" key="find.popup" timestamp="1600421660865">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="386" y="192" width="605" height="516" key="find.popup/0.0.1378.900@0.0.1378.900" timestamp="1600421660865" />
+    <state x="352" y="192" width="672" height="678" key="search.everywhere.popup" timestamp="1600334893557">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="352" y="192" width="672" height="678" key="search.everywhere.popup/0.0.1378.900@0.0.1378.900" timestamp="1600334893557" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/main/Panel/panel.js</url>
+          <line>60</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
