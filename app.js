@@ -4,16 +4,17 @@ import {getMycollect, isEmpty} from "./utils/util";
 App({
   onLaunch: function () {
     // 展示本地存储能力
-    // var logs = wx.getStorageSync('logs') || []
-    // logs.unshift(Date.now())
+    //  var logs = wx.getStorageSync('logs') || []
+    //  logs.unshift(Date.now())
     // wx.setStorageSync('logs', logs)
 
     // 登录
-    // wx.login({
-    //   success: res => {
-    //     // 发送 res.code 到后台换取 openId, sessionKey, unionId
-    //   }
-    // })
+    wx.login({
+      success: res => {
+        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        console.log("xuxu","login")
+      }
+    })
     // 获取用户信息
     // wx.getSetting({
     //   success: res => {

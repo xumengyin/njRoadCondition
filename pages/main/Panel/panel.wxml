@@ -1,28 +1,34 @@
 <!--pages/main/Panel/panel.wxml-->
 <van-transition name="fade" show="{{showSwiper}}">
-<view wx:if="{{showSwiper}}"class="swipe" catchtouchmove="catchMove">
-    <view class="bg">
-        <view class="flexV" style="width:100%;flex:1;">
-            <view class="font1" style="margin-left:32rpx">{{item.OutsideName==''?item.GroupName:item.OutsideName}}</view>
-            <view class="font1" style="margin:12rpx 0 0 32rpx">{{item.Camera_name}}</view>
-        </view>
-        <view class="line"/>
-        <view class="flexH">
-
-            <view class="bottomH" bindtap="collect">
-
-                <image src="{{isCollected?'/images/collection2.png':'/images/collection1.png'}}" class="icon"></image>
-                <view class="font2" style="margin-left:12rpx">收藏</view>
+    <view wx:if="{{showSwiper}}" class="swipe" catchtouchmove="catchMove">
+        <view class="bg">
+            <view class="flexH" style="width:100%;flex:1;align-items: center;">
+                <image src="/images/loc3.png" class="image4" style="margin-left:32rpx"></image>
+                <view class="flexV">
+                    <view class="font1" style="margin-left:20rpx">
+                        {{item.OutsideName==''?item.GroupName:item.OutsideName}}
+                    </view>
+                    <view class="font1" style="margin:12rpx 0 0 20rpx">{{item.Camera_name}}</view>
+                </view>
             </view>
-            <view class="line2"></view>
-            <view class="bottomH" bindtap="playVideo">
+            <view class="line"/>
+            <view class="flexH">
 
-                <image src="/images/live_tv.png" class="icon"  data-info="{{item}}"></image>
-                <view class="font2" style="margin-left:12rpx">播放</view>
+                <view class="bottomH" bindtap="collect">
+
+                    <image src="{{isCollected?'/images/collection2.png':'/images/collection1.png'}}"
+                           class="icon"></image>
+                    <view class="font2" style="margin-left:12rpx">收藏</view>
+                </view>
+                <view class="line2"></view>
+                <view class="bottomH" bindtap="playVideo">
+
+                    <image src="/images/live_tv.png" class="icon" data-info="{{item}}"></image>
+                    <view class="font2" style="margin-left:12rpx">播放</view>
+                </view>
+
             </view>
 
         </view>
-
     </view>
-</view>
 </van-transition>

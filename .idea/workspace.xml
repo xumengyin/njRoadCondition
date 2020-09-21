@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd32895f-d71b-43de-88c5-c0a917198be2" name="Default Changelist" comment="" />
+    <list default="true" id="fd32895f-d71b-43de-88c5-c0a917198be2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/loc3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/qqmap-wx-jssdk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/loc_choose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/Panel/panel.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main/Panel/panel.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/Panel/panel.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main/Panel/panel.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1hZicBz532clqtetClQzYAdFucs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,13 +38,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\dinaWxAPP\njRoadCondition\pages\main" />
       <recent name="E:\dinaWxAPP\njRoadCondition\images" />
+      <recent name="E:\dinaWxAPP\njRoadCondition\lib" />
+      <recent name="E:\dinaWxAPP\njRoadCondition\pages\main" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -44,7 +60,9 @@
       <updated>1600225091276</updated>
       <workItem from="1600225093321" duration="8786000" />
       <workItem from="1600239357115" duration="23802000" />
-      <workItem from="1600322964849" duration="41885000" />
+      <workItem from="1600322964849" duration="42565000" />
+      <workItem from="1600478456245" duration="1524000" />
+      <workItem from="1600649295467" duration="6972000" />
     </task>
     <servers />
   </component>
@@ -60,18 +78,22 @@
       <screen x="0" y="0" width="1378" height="900" />
     </state>
     <state x="547" y="345" width="283" height="275" key="Github.ShareDialog/0.0.1378.900@0.0.1378.900" timestamp="1600250702971" />
-    <state x="414" y="185" width="609" height="524" key="StructurePopup" timestamp="1600407844148">
+    <state x="414" y="185" width="609" height="524" key="StructurePopup" timestamp="1600659892483">
       <screen x="0" y="0" width="1378" height="900" />
     </state>
-    <state x="414" y="185" width="609" height="524" key="StructurePopup/0.0.1378.900@0.0.1378.900" timestamp="1600407844148" />
+    <state x="414" y="185" width="609" height="524" key="StructurePopup/0.0.1378.900@0.0.1378.900" timestamp="1600659892483" />
+    <state x="489" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600654029285">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="489" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1378.900@0.0.1378.900" timestamp="1600654029285" />
     <state x="386" y="192" width="605" height="516" key="find.popup" timestamp="1600421660865">
       <screen x="0" y="0" width="1378" height="900" />
     </state>
     <state x="386" y="192" width="605" height="516" key="find.popup/0.0.1378.900@0.0.1378.900" timestamp="1600421660865" />
-    <state x="352" y="192" width="672" height="678" key="search.everywhere.popup" timestamp="1600334893557">
+    <state x="352" y="192" width="672" height="678" key="search.everywhere.popup" timestamp="1600660303439">
       <screen x="0" y="0" width="1378" height="900" />
     </state>
-    <state x="352" y="192" width="672" height="678" key="search.everywhere.popup/0.0.1378.900@0.0.1378.900" timestamp="1600334893557" />
+    <state x="352" y="192" width="672" height="678" key="search.everywhere.popup/0.0.1378.900@0.0.1378.900" timestamp="1600660303439" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -79,7 +101,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/pages/main/Panel/panel.js</url>
           <line>60</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

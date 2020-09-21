@@ -1,3 +1,7 @@
+
+var QQMapWX = require('../lib/qqmap-wx-jssdk.js');
+var qqmapsdk;
+const mapId='6VBBZ-CM2CU-Q5KV5-BE34A-JU7PK-6LFFV'
 const formatTime = date => {
     const year = date.getFullYear()
     const month = date.getMonth() + 1
@@ -61,6 +65,29 @@ function isGetLocPermission() {
 }
 
 
+function getCity(lat,lng) {
+    qqmapsdk = new QQMapWX({
+        key: mapId
+    });
+    return new Promise((resolve, reject)=>{
+        qqmapsdk.reverseGeocoder({
+            location:{latitude:lat,longitude:lng},
+            success:function (res) {
+                if(res.status==0)
+                {
+                    resolve(res)
+                }else
+                {
+                    reject(res)
+                }
+            },
+            fail:function (err) {
+                reject(err)
+            }
+        })
+    })
+
+}
 function post(url, params, showLoad = false, callback) {
     wx.request({
         url: url,
@@ -190,5 +217,5 @@ module.exports = {
     formatTime: formatTime,
     isGetLocPermission,
     get, post, uuid, isEmpty, bd_decrypt, bd_encrypt, showToast
-    , getMycollect, setCollect
+    , getMycollect, setCollect,mapId,getCity
 }

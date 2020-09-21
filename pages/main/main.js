@@ -1,5 +1,5 @@
 // pages/main/main.js
-import {isGetLocPermission, isEmpty, bd_decrypt, showToast} from "../../utils/util";
+import {isGetLocPermission, isEmpty, bd_decrypt, showToast, getCity} from "../../utils/util";
 import {NjNetData} from "../../net/NjNetData";
 
 let dataHelp=new NjNetData()
@@ -35,6 +35,26 @@ Page({
           this.setData({
             lat: latitude,
             lng: longitude,
+          })
+          getCity(latitude,longitude).then((res)=>{
+                let city=res.result.ad_info.city
+                console.log("xuxu","city"+city)
+                if(!city.startsWith("南京"))
+                {
+                      wx.showModal({
+                          title:"提示",
+                          content:"目前暂时只支持南京查询实时路况摄像!",
+                          showCancel:false,
+                        success(res) {
+                          this.setData({
+                            lat:32.0417315172,
+                            lng:118.7841367722,
+                          })
+                        }
+                      })
+                }
+          },(err)=>{
+
           })
         },
         fail: (resp) => {

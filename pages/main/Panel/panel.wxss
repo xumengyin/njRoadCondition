@@ -56,3 +56,7 @@
     height: 90rpx;
     background-color: #dddddd;
 }
+.image4{
+    width: 70rpx;
+    height: 70rpx;
+}
