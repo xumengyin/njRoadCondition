@@ -27,6 +27,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    let that =this
     isGetLocPermission().then((res)=>{
       wx.getLocation({
         type: "gcj02",
@@ -39,14 +40,14 @@ Page({
           getCity(latitude,longitude).then((res)=>{
                 let city=res.result.ad_info.city
                 console.log("xuxu","city"+city)
-                if(!city.startsWith("南京"))
+                if(isEmpty(city)||!city.startsWith("南京"))
                 {
                       wx.showModal({
                           title:"提示",
                           content:"目前暂时只支持南京查询实时路况摄像!",
                           showCancel:false,
                         success(res) {
-                          this.setData({
+                          that.setData({
                             lat:32.0417315172,
                             lng:118.7841367722,
                           })
@@ -257,7 +258,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+      return {
+        title:"南京城区实时路况摄像直播,快来看看吧!",
+        path:"/pages/main/main"
+      }
   },
   test()
   {

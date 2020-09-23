@@ -6,7 +6,7 @@
 
     <van-notice-bar
             left-icon="volume-o"
-            text="部分摄像设备可能离线或者损坏无法播放,请更换设备播放或者稍后重试"
+            text="部分摄像设备可能离线或者损坏无法播放,请更换设备播放或者稍后重试,觉得好得话,请分享给你的南京朋友吧~"
             class="notice"
     />
     <!--    <view class="panel1">-->
@@ -23,6 +23,10 @@
             <image src="/images/my_colletc.png" class="menuIcon"/>
             <view class="font26 textColor3">收藏</view>
         </view>
+        <button class="shareItem" open-type="share">
+            <image src="/images/share.png" class="menuIcon"/>
+            <view class="font26 textColor3">分享</view>
+        </button>
 
     </view>
 

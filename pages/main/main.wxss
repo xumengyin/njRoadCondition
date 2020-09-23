@@ -54,6 +54,21 @@
     justify-content: center;
     align-items: center;
 }
+.shareItem{
+    width: 60rpx !important;
+    height: 80rpx !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    flex-direction: column;
+    /*padding-left: 18px !important;*/
+    /*padding-right: 18px !important;*/
+    padding: 18rpx !important;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
 .notice{
     position: absolute;
     width: 100%;
